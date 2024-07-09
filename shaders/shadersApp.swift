@@ -1,17 +1,17 @@
 //
-//  shadersApp.swift
-//  shaders
+//  ShadersApp.swift
+//  Shaders
 //
-//  Created by tikhonov on 07.07.2024.
+//  Created by tikhonov on 13.05.2024.
 //
 
 import SwiftUI
 
 @main
-struct shadersApp: App {
+struct ShadersApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ShaderListView() //ContentView()
         }
     }
 }

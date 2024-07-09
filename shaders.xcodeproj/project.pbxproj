@@ -7,22 +7,57 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		680D845B2C3A8838008DE01B /* shadersApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 680D845A2C3A8838008DE01B /* shadersApp.swift */; };
-		680D845D2C3A8838008DE01B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 680D845C2C3A8838008DE01B /* ContentView.swift */; };
-		680D845F2C3A8839008DE01B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 680D845E2C3A8839008DE01B /* Assets.xcassets */; };
-		680D84622C3A8839008DE01B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 680D84612C3A8839008DE01B /* Preview Assets.xcassets */; };
+		680D84752C3AC34E008DE01B /* Shaping functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 680D84742C3AC34E008DE01B /* Shaping functions.swift */; };
+		683F00F92C07C68B00F83F7D /* Shapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 683F00F82C07C68B00F83F7D /* Shapes.swift */; };
+		683F00FB2C07CC5700F83F7D /* shapes.metal in Sources */ = {isa = PBXBuildFile; fileRef = 683F00FA2C07CC5700F83F7D /* shapes.metal */; };
+		6843B91E2C3040FF008DB432 /* MatricesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6843B91D2C3040FF008DB432 /* MatricesView.swift */; };
+		6843B9202C30413B008DB432 /* matrices.metal in Sources */ = {isa = PBXBuildFile; fileRef = 6843B91F2C30413B008DB432 /* matrices.metal */; };
+		6843B9232C31F030008DB432 /* PatternsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6843B9222C31F030008DB432 /* PatternsView.swift */; };
+		6843B9252C31F123008DB432 /* patterns.metal in Sources */ = {isa = PBXBuildFile; fileRef = 6843B9242C31F123008DB432 /* patterns.metal */; };
+		6856DE4F2C02141800F63C0A /* ShaderListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6856DE4E2C02141800F63C0A /* ShaderListView.swift */; };
+		686580F82BF404D200AF3E90 /* loupe.metal in Sources */ = {isa = PBXBuildFile; fileRef = 686580F72BF404D200AF3E90 /* loupe.metal */; };
+		68A43A5C2C036B7C0001A502 /* pixel.metal in Sources */ = {isa = PBXBuildFile; fileRef = 68A43A5B2C036B7C0001A502 /* pixel.metal */; };
+		68A810222C3AD2E70058EC01 /* shaping functions.metal in Sources */ = {isa = PBXBuildFile; fileRef = 68A810212C3AD2E70058EC01 /* shaping functions.metal */; };
+		68BDC3DE2C1F411900B95223 /* View+navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68BDC3DD2C1F411900B95223 /* View+navigation.swift */; };
+		68BDC3E02C1F417C00B95223 /* Destination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68BDC3DF2C1F417C00B95223 /* Destination.swift */; };
+		68BDC3E32C1F425000B95223 /* GradientColorAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68BDC3E22C1F425000B95223 /* GradientColorAnimation.swift */; };
+		68BDC3E62C1F6A9800B95223 /* ShaderEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68BDC3E52C1F6A9800B95223 /* ShaderEntry.swift */; };
+		68BDC3E82C1F6B0900B95223 /* Loupe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68BDC3E72C1F6B0900B95223 /* Loupe.swift */; };
+		68BDC3EA2C1F6F3200B95223 /* gradient.metal in Sources */ = {isa = PBXBuildFile; fileRef = 68BDC3E92C1F6F3200B95223 /* gradient.metal */; };
+		68BDC3F72C1F892700B95223 /* Pixel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68BDC3F62C1F892700B95223 /* Pixel.swift */; };
+		68D456E82BF2B39700E95BD7 /* ShadersApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D456E72BF2B39700E95BD7 /* ShadersApp.swift */; };
+		68D456EC2BF2B39900E95BD7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68D456EB2BF2B39900E95BD7 /* Assets.xcassets */; };
+		68D456F02BF2B39900E95BD7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68D456EF2BF2B39900E95BD7 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		680D84572C3A8838008DE01B /* shaders.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = shaders.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		680D845A2C3A8838008DE01B /* shadersApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = shadersApp.swift; sourceTree = "<group>"; };
-		680D845C2C3A8838008DE01B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		680D845E2C3A8839008DE01B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		680D84612C3A8839008DE01B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		680D84742C3AC34E008DE01B /* Shaping functions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Shaping functions.swift"; sourceTree = "<group>"; };
+		683F00F82C07C68B00F83F7D /* Shapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shapes.swift; sourceTree = "<group>"; };
+		683F00FA2C07CC5700F83F7D /* shapes.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = shapes.metal; sourceTree = "<group>"; };
+		6843B91D2C3040FF008DB432 /* MatricesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatricesView.swift; sourceTree = "<group>"; };
+		6843B91F2C30413B008DB432 /* matrices.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = matrices.metal; sourceTree = "<group>"; };
+		6843B9222C31F030008DB432 /* PatternsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatternsView.swift; sourceTree = "<group>"; };
+		6843B9242C31F123008DB432 /* patterns.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = patterns.metal; sourceTree = "<group>"; };
+		6856DE4E2C02141800F63C0A /* ShaderListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShaderListView.swift; sourceTree = "<group>"; };
+		686580F72BF404D200AF3E90 /* loupe.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = loupe.metal; sourceTree = "<group>"; };
+		68A43A5B2C036B7C0001A502 /* pixel.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = pixel.metal; sourceTree = "<group>"; };
+		68A810212C3AD2E70058EC01 /* shaping functions.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = "shaping functions.metal"; sourceTree = "<group>"; };
+		68BDC3DD2C1F411900B95223 /* View+navigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+navigation.swift"; sourceTree = "<group>"; };
+		68BDC3DF2C1F417C00B95223 /* Destination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Destination.swift; sourceTree = "<group>"; };
+		68BDC3E22C1F425000B95223 /* GradientColorAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientColorAnimation.swift; sourceTree = "<group>"; };
+		68BDC3E52C1F6A9800B95223 /* ShaderEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShaderEntry.swift; sourceTree = "<group>"; };
+		68BDC3E72C1F6B0900B95223 /* Loupe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loupe.swift; sourceTree = "<group>"; };
+		68BDC3E92C1F6F3200B95223 /* gradient.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = gradient.metal; sourceTree = "<group>"; };
+		68BDC3F62C1F892700B95223 /* Pixel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pixel.swift; sourceTree = "<group>"; };
+		68D456E42BF2B39700E95BD7 /* Shaders.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shaders.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		68D456E72BF2B39700E95BD7 /* ShadersApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadersApp.swift; sourceTree = "<group>"; };
+		68D456EB2BF2B39900E95BD7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		68D456ED2BF2B39900E95BD7 /* Shaders.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Shaders.entitlements; sourceTree = "<group>"; };
+		68D456EF2BF2B39900E95BD7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		680D84542C3A8838008DE01B /* Frameworks */ = {
+		68D456E12BF2B39700E95BD7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -32,37 +67,127 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		680D844E2C3A8838008DE01B = {
+		683F00F72C07C68200F83F7D /* Shapes */ = {
 			isa = PBXGroup;
 			children = (
-				680D84592C3A8838008DE01B /* shaders */,
-				680D84582C3A8838008DE01B /* Products */,
+				683F00F82C07C68B00F83F7D /* Shapes.swift */,
+				680D84742C3AC34E008DE01B /* Shaping functions.swift */,
+				683F00FA2C07CC5700F83F7D /* shapes.metal */,
+				68A810212C3AD2E70058EC01 /* shaping functions.metal */,
+			);
+			path = Shapes;
+			sourceTree = "<group>";
+		};
+		6843B91C2C3019C9008DB432 /* 2D Matrices */ = {
+			isa = PBXGroup;
+			children = (
+				6843B91D2C3040FF008DB432 /* MatricesView.swift */,
+				6843B91F2C30413B008DB432 /* matrices.metal */,
+			);
+			path = "2D Matrices";
+			sourceTree = "<group>";
+		};
+		6843B9212C31F015008DB432 /* Patterns */ = {
+			isa = PBXGroup;
+			children = (
+				6843B9222C31F030008DB432 /* PatternsView.swift */,
+				6843B9242C31F123008DB432 /* patterns.metal */,
+			);
+			path = Patterns;
+			sourceTree = "<group>";
+		};
+		68BDC3DC2C1F410600B95223 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				68BDC3DD2C1F411900B95223 /* View+navigation.swift */,
+				68BDC3DF2C1F417C00B95223 /* Destination.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		68BDC3E12C1F422300B95223 /* Shaders list */ = {
+			isa = PBXGroup;
+			children = (
+				683F00F72C07C68200F83F7D /* Shapes */,
+				6843B9212C31F015008DB432 /* Patterns */,
+				6843B91C2C3019C9008DB432 /* 2D Matrices */,
+				68BDC3F52C1F891000B95223 /* Pixellation */,
+				68BDC3EE2C1F709800B95223 /* Loupe */,
+				68BDC3EB2C1F6F5000B95223 /* Gradient */,
+			);
+			path = "Shaders list";
+			sourceTree = "<group>";
+		};
+		68BDC3E42C1F6A8F00B95223 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				68BDC3E52C1F6A9800B95223 /* ShaderEntry.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		68BDC3EB2C1F6F5000B95223 /* Gradient */ = {
+			isa = PBXGroup;
+			children = (
+				68BDC3E92C1F6F3200B95223 /* gradient.metal */,
+				68BDC3E22C1F425000B95223 /* GradientColorAnimation.swift */,
+			);
+			path = Gradient;
+			sourceTree = "<group>";
+		};
+		68BDC3EE2C1F709800B95223 /* Loupe */ = {
+			isa = PBXGroup;
+			children = (
+				68BDC3E72C1F6B0900B95223 /* Loupe.swift */,
+				686580F72BF404D200AF3E90 /* loupe.metal */,
+			);
+			path = Loupe;
+			sourceTree = "<group>";
+		};
+		68BDC3F52C1F891000B95223 /* Pixellation */ = {
+			isa = PBXGroup;
+			children = (
+				68BDC3F62C1F892700B95223 /* Pixel.swift */,
+				68A43A5B2C036B7C0001A502 /* pixel.metal */,
+			);
+			path = Pixellation;
+			sourceTree = "<group>";
+		};
+		68D456DB2BF2B39700E95BD7 = {
+			isa = PBXGroup;
+			children = (
+				68D456E62BF2B39700E95BD7 /* Shaders */,
+				68D456E52BF2B39700E95BD7 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		680D84582C3A8838008DE01B /* Products */ = {
+		68D456E52BF2B39700E95BD7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				680D84572C3A8838008DE01B /* shaders.app */,
+				68D456E42BF2B39700E95BD7 /* Shaders.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		680D84592C3A8838008DE01B /* shaders */ = {
+		68D456E62BF2B39700E95BD7 /* Shaders */ = {
 			isa = PBXGroup;
 			children = (
-				680D845A2C3A8838008DE01B /* shadersApp.swift */,
-				680D845C2C3A8838008DE01B /* ContentView.swift */,
-				680D845E2C3A8839008DE01B /* Assets.xcassets */,
-				680D84602C3A8839008DE01B /* Preview Content */,
+				68D456E72BF2B39700E95BD7 /* ShadersApp.swift */,
+				6856DE4E2C02141800F63C0A /* ShaderListView.swift */,
+				68BDC3DC2C1F410600B95223 /* Navigation */,
+				68BDC3E42C1F6A8F00B95223 /* Model */,
+				68BDC3E12C1F422300B95223 /* Shaders list */,
+				68D456EB2BF2B39900E95BD7 /* Assets.xcassets */,
+				68D456ED2BF2B39900E95BD7 /* Shaders.entitlements */,
+				68D456EE2BF2B39900E95BD7 /* Preview Content */,
 			);
-			path = shaders;
+			path = Shaders;
 			sourceTree = "<group>";
 		};
-		680D84602C3A8839008DE01B /* Preview Content */ = {
+		68D456EE2BF2B39900E95BD7 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				680D84612C3A8839008DE01B /* Preview Assets.xcassets */,
+				68D456EF2BF2B39900E95BD7 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -70,39 +195,39 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		680D84562C3A8838008DE01B /* shaders */ = {
+		68D456E32BF2B39700E95BD7 /* Shaders */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 680D84652C3A8839008DE01B /* Build configuration list for PBXNativeTarget "shaders" */;
+			buildConfigurationList = 68D456F32BF2B39900E95BD7 /* Build configuration list for PBXNativeTarget "Shaders" */;
 			buildPhases = (
-				680D84532C3A8838008DE01B /* Sources */,
-				680D84542C3A8838008DE01B /* Frameworks */,
-				680D84552C3A8838008DE01B /* Resources */,
+				68D456E02BF2B39700E95BD7 /* Sources */,
+				68D456E12BF2B39700E95BD7 /* Frameworks */,
+				68D456E22BF2B39700E95BD7 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = shaders;
-			productName = shaders;
-			productReference = 680D84572C3A8838008DE01B /* shaders.app */;
+			name = Shaders;
+			productName = Shaders;
+			productReference = 68D456E42BF2B39700E95BD7 /* Shaders.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		680D844F2C3A8838008DE01B /* Project object */ = {
+		68D456DC2BF2B39700E95BD7 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1530;
 				LastUpgradeCheck = 1530;
 				TargetAttributes = {
-					680D84562C3A8838008DE01B = {
+					68D456E32BF2B39700E95BD7 = {
 						CreatedOnToolsVersion = 15.3;
 					};
 				};
 			};
-			buildConfigurationList = 680D84522C3A8838008DE01B /* Build configuration list for PBXProject "shaders" */;
+			buildConfigurationList = 68D456DF2BF2B39700E95BD7 /* Build configuration list for PBXProject "Shaders" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -110,42 +235,59 @@
 				en,
 				Base,
 			);
-			mainGroup = 680D844E2C3A8838008DE01B;
-			productRefGroup = 680D84582C3A8838008DE01B /* Products */;
+			mainGroup = 68D456DB2BF2B39700E95BD7;
+			productRefGroup = 68D456E52BF2B39700E95BD7 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				680D84562C3A8838008DE01B /* shaders */,
+				68D456E32BF2B39700E95BD7 /* Shaders */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		680D84552C3A8838008DE01B /* Resources */ = {
+		68D456E22BF2B39700E95BD7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				680D84622C3A8839008DE01B /* Preview Assets.xcassets in Resources */,
-				680D845F2C3A8839008DE01B /* Assets.xcassets in Resources */,
+				68D456F02BF2B39900E95BD7 /* Preview Assets.xcassets in Resources */,
+				68D456EC2BF2B39900E95BD7 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		680D84532C3A8838008DE01B /* Sources */ = {
+		68D456E02BF2B39700E95BD7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				680D845D2C3A8838008DE01B /* ContentView.swift in Sources */,
-				680D845B2C3A8838008DE01B /* shadersApp.swift in Sources */,
+				68A43A5C2C036B7C0001A502 /* pixel.metal in Sources */,
+				6843B91E2C3040FF008DB432 /* MatricesView.swift in Sources */,
+				683F00FB2C07CC5700F83F7D /* shapes.metal in Sources */,
+				68BDC3E02C1F417C00B95223 /* Destination.swift in Sources */,
+				68BDC3E62C1F6A9800B95223 /* ShaderEntry.swift in Sources */,
+				68BDC3EA2C1F6F3200B95223 /* gradient.metal in Sources */,
+				6843B9252C31F123008DB432 /* patterns.metal in Sources */,
+				68BDC3DE2C1F411900B95223 /* View+navigation.swift in Sources */,
+				6843B9202C30413B008DB432 /* matrices.metal in Sources */,
+				680D84752C3AC34E008DE01B /* Shaping functions.swift in Sources */,
+				68BDC3F72C1F892700B95223 /* Pixel.swift in Sources */,
+				683F00F92C07C68B00F83F7D /* Shapes.swift in Sources */,
+				6843B9232C31F030008DB432 /* PatternsView.swift in Sources */,
+				68BDC3E82C1F6B0900B95223 /* Loupe.swift in Sources */,
+				686580F82BF404D200AF3E90 /* loupe.metal in Sources */,
+				68BDC3E32C1F425000B95223 /* GradientColorAnimation.swift in Sources */,
+				68A810222C3AD2E70058EC01 /* shaping functions.metal in Sources */,
+				68D456E82BF2B39700E95BD7 /* ShadersApp.swift in Sources */,
+				6856DE4F2C02141800F63C0A /* ShaderListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		680D84632C3A8839008DE01B /* Debug */ = {
+		68D456F12BF2B39900E95BD7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -197,18 +339,16 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		680D84642C3A8839008DE01B /* Release */ = {
+		68D456F22BF2B39900E95BD7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -254,68 +394,83 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
-				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
-				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		680D84662C3A8839008DE01B /* Debug */ = {
+		68D456F42BF2B39900E95BD7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Shaders/Shaders.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"shaders/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Shaders/Preview Content\"";
 				DEVELOPMENT_TEAM = RJEHPE26WF;
+				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.tikhonov.shaders;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tikhonov.Shaders;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		680D84672C3A8839008DE01B /* Release */ = {
+		68D456F52BF2B39900E95BD7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Shaders/Shaders.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"shaders/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Shaders/Preview Content\"";
 				DEVELOPMENT_TEAM = RJEHPE26WF;
+				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.tikhonov.shaders;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tikhonov.Shaders;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -325,25 +480,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		680D84522C3A8838008DE01B /* Build configuration list for PBXProject "shaders" */ = {
+		68D456DF2BF2B39700E95BD7 /* Build configuration list for PBXProject "Shaders" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				680D84632C3A8839008DE01B /* Debug */,
-				680D84642C3A8839008DE01B /* Release */,
+				68D456F12BF2B39900E95BD7 /* Debug */,
+				68D456F22BF2B39900E95BD7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		680D84652C3A8839008DE01B /* Build configuration list for PBXNativeTarget "shaders" */ = {
+		68D456F32BF2B39900E95BD7 /* Build configuration list for PBXNativeTarget "Shaders" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				680D84662C3A8839008DE01B /* Debug */,
-				680D84672C3A8839008DE01B /* Release */,
+				68D456F42BF2B39900E95BD7 /* Debug */,
+				68D456F52BF2B39900E95BD7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 680D844F2C3A8838008DE01B /* Project object */;
+	rootObject = 68D456DC2BF2B39700E95BD7 /* Project object */;
 }
