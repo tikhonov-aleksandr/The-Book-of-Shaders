@@ -14,7 +14,7 @@ struct ShapesView: View {
             Section("Shaping functions") {
                 VStack(alignment: .leading) {
                     ForEach(PlotFunction.allCases) { plotFunction in
-                        VStack(spacing: 0.0) {
+                        VStack(spacing: 0) {
                             Text(plotFunction.name)
                             Rectangle()
                                 .frame(height: 100)

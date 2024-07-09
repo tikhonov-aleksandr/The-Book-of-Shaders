@@ -16,6 +16,7 @@
 		6843B9252C31F123008DB432 /* patterns.metal in Sources */ = {isa = PBXBuildFile; fileRef = 6843B9242C31F123008DB432 /* patterns.metal */; };
 		6856DE4F2C02141800F63C0A /* ShaderListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6856DE4E2C02141800F63C0A /* ShaderListView.swift */; };
 		686580F82BF404D200AF3E90 /* loupe.metal in Sources */ = {isa = PBXBuildFile; fileRef = 686580F72BF404D200AF3E90 /* loupe.metal */; };
+		6866F7F32C3DCCBB0042053C /* PlotFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6866F7F22C3DCCBB0042053C /* PlotFunction.swift */; };
 		68A43A5C2C036B7C0001A502 /* pixel.metal in Sources */ = {isa = PBXBuildFile; fileRef = 68A43A5B2C036B7C0001A502 /* pixel.metal */; };
 		68A810222C3AD2E70058EC01 /* shaping functions.metal in Sources */ = {isa = PBXBuildFile; fileRef = 68A810212C3AD2E70058EC01 /* shaping functions.metal */; };
 		68BDC3DE2C1F411900B95223 /* View+navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68BDC3DD2C1F411900B95223 /* View+navigation.swift */; };
@@ -40,6 +41,7 @@
 		6843B9242C31F123008DB432 /* patterns.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = patterns.metal; sourceTree = "<group>"; };
 		6856DE4E2C02141800F63C0A /* ShaderListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShaderListView.swift; sourceTree = "<group>"; };
 		686580F72BF404D200AF3E90 /* loupe.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = loupe.metal; sourceTree = "<group>"; };
+		6866F7F22C3DCCBB0042053C /* PlotFunction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlotFunction.swift; sourceTree = "<group>"; };
 		68A43A5B2C036B7C0001A502 /* pixel.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = pixel.metal; sourceTree = "<group>"; };
 		68A810212C3AD2E70058EC01 /* shaping functions.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = "shaping functions.metal"; sourceTree = "<group>"; };
 		68BDC3DD2C1F411900B95223 /* View+navigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+navigation.swift"; sourceTree = "<group>"; };
@@ -72,6 +74,7 @@
 			children = (
 				683F00F82C07C68B00F83F7D /* Shapes.swift */,
 				680D84742C3AC34E008DE01B /* Shaping functions.swift */,
+				6866F7F22C3DCCBB0042053C /* PlotFunction.swift */,
 				683F00FA2C07CC5700F83F7D /* shapes.metal */,
 				68A810212C3AD2E70058EC01 /* shaping functions.metal */,
 			);
@@ -264,6 +267,7 @@
 			files = (
 				68A43A5C2C036B7C0001A502 /* pixel.metal in Sources */,
 				6843B91E2C3040FF008DB432 /* MatricesView.swift in Sources */,
+				6866F7F32C3DCCBB0042053C /* PlotFunction.swift in Sources */,
 				683F00FB2C07CC5700F83F7D /* shapes.metal in Sources */,
 				68BDC3E02C1F417C00B95223 /* Destination.swift in Sources */,
 				68BDC3E62C1F6A9800B95223 /* ShaderEntry.swift in Sources */,
