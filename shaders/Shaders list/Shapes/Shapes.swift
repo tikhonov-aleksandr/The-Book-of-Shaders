@@ -23,28 +23,30 @@ struct ShapesView: View {
                     }
                 }
             }
-            VStack(alignment: .center) {
-                Rectangle()
-                    .frame(width: 100, height: 100)
-                    .square()
-                Rectangle()
-                    .frame(width: 100, height: 100)
-                    .circle3()
-                Rectangle()
-                    .frame(width: 100, height: 100)
-                    .circle4()
-                Rectangle()
-                    .frame(width: 200, height: 200)
-                    .distanceField()
-                Rectangle()
-                    .frame(width: 100, height: 100)
-                    .circleAnimation()
-                Rectangle()
-                    .frame(width: 100, height: 100)
-                    .leaf3()
-                Rectangle()
-                    .frame(width: 100, height: 100)
-                    .anyShape()
+            Section("Other shapes") {
+                VStack(alignment: .center) {
+                    Rectangle()
+                        .frame(width: 100, height: 100)
+                        .square()
+                    Rectangle()
+                        .frame(width: 100, height: 100)
+                        .circle3()
+                    Rectangle()
+                        .frame(width: 100, height: 100)
+                        .circle4()
+                    Rectangle()
+                        .frame(width: 200, height: 200)
+                        .distanceField()
+                    Rectangle()
+                        .frame(width: 100, height: 100)
+                        .circleAnimation()
+                    Rectangle()
+                        .frame(width: 100, height: 100)
+                        .leaf3()
+                    Rectangle()
+                        .frame(width: 100, height: 100)
+                        .anyShape()
+                }
             }
         }
         .frame(maxWidth: .infinity, maxHeight: .infinity)
