@@ -51,3 +51,19 @@ using namespace metal;
 
     return layer.sample(pos);
 }
+
+[[stitchable]] half4 text3d(float2 pos, SwiftUI::Layer layer, float2 l, float2 v) {
+    float2 m = -v * pow(
+                        clamp(1 - length(l - pos) / 190, 0., 1.),
+                        2
+                        ) * 1.5;
+    half3 c = 0;
+    for(float i = 0; i < 10; i++){
+        float s = .175+.005 * i;
+        c += half3(layer.sample(pos + s * m).r,
+                 layer.sample(pos + (s +.025) * m).g,
+                 layer.sample(pos + (s +.05) * m).b
+                 );
+    }
+    return half4(c/10,1);
+}

@@ -14,13 +14,17 @@ struct LoupeView: View {
                 .resizable()
                 .aspectRatio(contentMode: .fit)
                 .loupe()
-                .navigationTitle("Loupe")
             Image("mountain")
                 .resizable()
                 .aspectRatio(contentMode: .fit)
                 .redDot()
-                .navigationTitle("Loupe")
+            Text("Hello World! Hello World! Hello World! Hello World! Hello World! Hello World! Hello World! Hello World! Hello World! Hello World! Hello World! Hello World! Hello World! Hello World!")
+                .fontWeight(.bold)
+                .foregroundStyle(Color.white)
+                .background(Color.black)
+                .text3D()
         }
+        .navigationTitle("Loupe")
     }
 }
 
@@ -64,6 +68,33 @@ struct RedDot: ViewModifier {
     }
 }
 
+struct Text3D: ViewModifier {
+
+    @State private var dragLocation = CGPoint(x: 0, y: 0)
+    @State private var dragVelocity = CGPoint(x: 0, y: 0)
+
+    func body(content: Content) -> some View {
+        content
+            .visualEffect { content, proxy in
+                content.layerEffect(
+                    ShaderLibrary.text3d(
+                        .float2(dragLocation),
+                        .float2(dragVelocity)
+                    ), maxSampleOffset: .zero)
+            }
+            .gesture(
+                DragGesture()
+                    .onChanged { value in
+                        self.dragLocation = value.location
+                        self.dragVelocity = CGPoint(
+                            x: value.predictedEndLocation.x - value.location.x,
+                            y: value.predictedEndLocation.y - value.location.y
+                        )
+                    }
+            )
+    }
+}
+
 extension View {
     func loupe() -> some View {
         modifier(Loupe())
@@ -71,6 +102,10 @@ extension View {
 
     func redDot() -> some View {
         modifier(RedDot())
+    }
+
+    func text3D() -> some View {
+        modifier(Text3D())
     }
 }
 
